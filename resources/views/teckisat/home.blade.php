@@ -94,14 +94,14 @@
 
                     <div class="col-lg-3 col-6 text-center">
                         <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1"
-                            class="purecounter"></span>
-                        <p class="">Disponible</p>
+                            class="purecounter">h/24</span>
+                        <p class="">Maintenance</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
                         <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
                             class="purecounter"></span>
-                        <p class="">Travailleurs</p>
+                        <p class="">Personnel Teckisat</p>
                     </div>
 
                 </div>

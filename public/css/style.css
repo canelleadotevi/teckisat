@@ -200,91 +200,17 @@ h6 {
   margin-left: 5px;
 }
 
-.navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
-.navbar li:hover>a {
+.navbar .nav-link:hover {
   color: rgb(7,94,85);
 }
 
-.navbar .getstarted,
-.navbar .getstarted:focus {
+.navbar .getstarted {
   background: rgb(7,94,85);
   padding: 10px 25px;
   margin-left: 30px;
   margin-right: 15px;
   border-radius: 50px;
   color: #fff;
-}
-
-.navbar .getstarted:hover,
-.navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #00b383;
-}
-
-.navbar .dropdown ul {
-  display: block;
-  position: absolute;
-  left: 14px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
-}
-
-.navbar .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  text-transform: none;
-  font-weight: 500;
-}
-
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: rgb(7,94,85);
-}
-
-.navbar .dropdown:hover>ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-
-.navbar .dropdown .dropdown ul {
-  top: 0;
-  left: calc(100% - 30px);
-  visibility: hidden;
-}
-
-.navbar .dropdown .dropdown:hover>ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-  visibility: visible;
-}
-
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-
-  .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
-  }
 }
 
 /**
@@ -347,50 +273,15 @@ h6 {
   color: #36343a;
 }
 
-.navbar-mobile a:hover,
-.navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile .nav-link:hover {
   color: rgb(7,94,85);
 }
 
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
+.navbar-mobile .getstarted {
   margin: 15px;
+  background: rgb(7,94,85);
 }
 
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
-
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: rgb(7,94,85);
-}
-
-.navbar-mobile .dropdown>.dropdown-active {
-  display: block;
-}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -398,7 +289,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg.jpg") center center;
+  background: url("../img/laptop-1483974.jpg") center center;
   background-size: cover;
   position: relative;
 }
@@ -446,8 +337,9 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
+  border: 2px solid rgb(7,94,85);
   color: #fff;
+  background: rgb(7,94,85);
 }
 
 #hero .btn-get-started:hover {
@@ -673,9 +565,9 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../img/lightbulb-5244001.jpg") fixed center center;
   background-size: cover;
-  padding: 60px 0;
+  padding: 100px 0;
 }
 
 .cta h3 {
